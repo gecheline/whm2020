@@ -1,0 +1,90 @@
+body {
+    /* font-family: "Helvetica Neue", sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1vh;
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /* background-image: url("photos/bhm_logo.png");
+    background-size: 25%;                      
+    background-repeat:   no-repeat;
+    background-position: 2% 1%; */
+    overflow: hidden;
+}
+
+div {
+    display: inline-flexbox;
+    align-items: center;
+  }
+
+#logo {
+    height: 10vh;
+}
+
+.header {
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #363636;
+    color: #CC527A;
+}
+
+.title {
+    font-size: 5.5vmin;
+    font-family: Impact;
+    color:#E8175D;
+}
+
+.subtitle {
+    font-size: 3vmin;
+    color:#CC527A;
+}
+
+.info {
+    height: 90vh;
+}
+
+.picture {
+    width: 65vh;
+}
+
+.picture img {
+    width: 65vh;
+}
+
+.name {
+    font-family: Impact;
+    text-align: center;
+    height: auto;
+    width: auto;
+    align-content: inherit;
+    margin: 2% 2% 2% 2%;
+    font-size: 6vw;
+    color: #363636;
+}
+
+.description {
+    font-family: Impact;
+    text-align: center;
+    height: auto;
+    width: auto;
+    align-content: inherit;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 2.5vw;
+    color: #363636;
+}
+
+.bio {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:rgba(232,23,93,0.5);
+    margin-left: 1%;
+    margin-right: 2%;
+    color: #363636;
+}
+
+.card-text {
+    font-size: 2vw;
+}
+
